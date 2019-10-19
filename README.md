@@ -1,2 +1,3 @@
 # dotfiles
-collection of shell setting files such as vimdc, zshrc, bashrc
+
+collection of shell setting files such as vimrc, zshrc, bashrc
