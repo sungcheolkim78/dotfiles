@@ -1,0 +1,182 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9fcdb06/
+<Leader>b	osx/vimrc	/^nnoremap <silent> <Leader>b :TagbarToggle<CR>$/;"	m
+<Leader>cw	rhel/vimrc	/^nnoremap <Leader>cw :ThesaurusQueryReplaceCurrentWord<CR>$/;"	m
+<Leader>cw	rhel/vimrc	/^vnoremap <Leader>cw y:ThesaurusQueryReplace <C-r>"<CR>$/;"	m
+<Leader>s	rhel/vimrc	/^map <Leader>s <C-o>:setlocal spell! spelllang=en_us<CR>$/;"	m
+<Leader>s	rhel/vimrc	/^nmap <Leader>s :setlocal spell! spelllang=en_us<CR>$/;"	m
+<Leader>t	rhel/vimrc	/^nnoremap <silent> <Leader>t :TagbarToggle<CR>$/;"	m
+<Space>	osx/vimrc	/^nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\\<Space>")<CR>$/;"	m
+<Space>	osx/vimrc	/^vnoremap <Space> zf$/;"	m
+<Space>	rhel/vimrc	/^nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\\<Space>")<CR>$/;"	m
+<Space>	rhel/vimrc	/^vnoremap <Space> zf$/;"	m
+<leader><space>	osx/vimrc	/^nnoremap <leader><space> :nohlsearch<CR>$/;"	m
+<leader><space>	rhel/vimrc	/^nnoremap <leader><space> :nohlsearch<CR>$/;"	m
+<leader>G	osx/vimrc	/^nnoremap <leader>G :Goyo<CR>$/;"	m
+<leader>G	rhel/vimrc	/^nnoremap <leader>G :Goyo<CR>$/;"	m
+<leader>M	osx/vimrc	/^nnoremap <leader>M :MarkedToggle<CR>$/;"	m
+<leader>M	rhel/vimrc	/^nnoremap <leader>M :MarkedToggle<CR>$/;"	m
+<leader>N	osx/vimrc	/^nnoremap <leader>N <ESC>:NERDTree<cr>$/;"	m
+<leader>N	rhel/vimrc	/^nnoremap <leader>N <ESC>:NERDTree<cr>$/;"	m
+<leader>S	osx/vimrc	/^nnoremap <silent> <leader>S :call ToggleSpellCheck()<CR>$/;"	m
+<leader>bb	osx/vimrc	/^nmap <leader>bb :CtrlPBuffer<cr>$/;"	m
+<leader>bb	rhel/vimrc	/^nmap <leader>bb :CtrlPBuffer<cr>$/;"	m
+<leader>bm	osx/vimrc	/^nmap <leader>bm :CtrlPMixed<cr>$/;"	m
+<leader>bm	rhel/vimrc	/^nmap <leader>bm :CtrlPMixed<cr>$/;"	m
+<leader>bs	osx/vimrc	/^nmap <leader>bs :CtrlPMRU<cr>$/;"	m
+<leader>bs	rhel/vimrc	/^nmap <leader>bs :CtrlPMRU<cr>$/;"	m
+<leader>d	osx/vimrc	/^map <leader>d "dyiw:call MacDict(@d)<CR>$/;"	m
+<leader>d	rhel/vimrc	/^nnoremap <leader>d :silent! StarDictCursor<CR>$/;"	m
+<leader>dw	rhel/vimrc	/^nnoremap <leader>dw :silent! StarDict<Space>$/;"	m
+<leader>eb	osx/vimrc	/^nnoremap <leader>eb :sp ~\/.bashrc<CR>$/;"	m
+<leader>en	osx/vimrc	/^nnoremap <leader>en :lnext<CR>$/;"	m
+<leader>en	rhel/vimrc	/^nnoremap <leader>en :lnext<CR>$/;"	m
+<leader>ev	osx/vimrc	/^nnoremap <leader>ev :sp $MYVIMRC<CR>$/;"	m
+<leader>ev	rhel/vimrc	/^nnoremap <leader>ev :sp $MYVIMRC<CR>$/;"	m
+<leader>h	osx/vimrc	/^nnoremap <leader>h :wincmd h<CR>$/;"	m
+<leader>h	rhel/vimrc	/^nnoremap <leader>h :wincmd h<CR>$/;"	m
+<leader>j	osx/vimrc	/^nnoremap <leader>j :wincmd j<CR>$/;"	m
+<leader>j	rhel/vimrc	/^nnoremap <leader>j :wincmd j<CR>$/;"	m
+<leader>k	osx/vimrc	/^nnoremap <leader>k :wincmd k<CR>$/;"	m
+<leader>k	rhel/vimrc	/^nnoremap <leader>k :wincmd k<CR>$/;"	m
+<leader>l	osx/vimrc	/^nnoremap <leader>l :wincmd l<CR>$/;"	m
+<leader>l	rhel/vimrc	/^nnoremap <leader>l :wincmd l<CR>$/;"	m
+<leader>p	osx/vimrc	/^nnoremap <leader>p :CtrlP<cr>$/;"	m
+<leader>p	rhel/vimrc	/^nnoremap <leader>p :CtrlP<cr>$/;"	m
+<leader>s	osx/vimrc	/^nnoremap <leader>s :mksession<CR>$/;"	m
+<leader>sv	osx/vimrc	/^nnoremap <leader>sv :source $MYVIMRC<CR>$/;"	m
+<leader>sv	rhel/vimrc	/^nnoremap <leader>sv :source $MYVIMRC<CR>$/;"	m
+<leader>ww	rhel/vimrc	/^inoremap <silent> <leader>ww <C-o>:NextWordy<cr>$/;"	m
+<leader>ww	rhel/vimrc	/^noremap <silent> <leader>ww :<C-u>NextWordy<cr>$/;"	m
+<leader>ww	rhel/vimrc	/^xnoremap <silent> <leader>ww :<C-u>NextWordy<cr>$/;"	m
+Select_c_style	osx/vimrc	/^fu Select_c_style()$/;"	f
+Select_c_style	rhel/vimrc	/^fu Select_c_style()$/;"	f
+StripTrailingWhitespaces	osx/vimrc	/^function! <SID>StripTrailingWhitespaces()$/;"	f
+ToggleSpellCheck	osx/vimrc	/^function! ToggleSpellCheck()$/;"	f
+UpdateSkim	osx/vimrc	/^function! UpdateSkim(status)$/;"	f
+UpdateSkim	rhel/vimrc	/^function! UpdateSkim(status)$/;"	f
+bg	rhel/tmux.conf	/^set -g window-status-current-format "#[fg=colour8, bg=colour4]#[fg=colour7, bg=colour4] #I*  /;"	k
+bg	rhel/tmux.conf	/^set -g window-status-format "#[fg=colour0, bg=colour8] #I-  #W #[fg=colour8, bg=colour0]"$/;"	k
+configgroup	osx/vimrc	/^augroup configgroup$/;"	a
+configgroup	rhel/vimrc	/^augroup configgroup$/;"	a
+dotfiles	README.md	/^# dotfiles$/;"	c
+fg	rhel/tmux.conf	/^set -g status-left '#[bg=colour7, fg=colour0]#{?client_prefix,#[bg=colour2],} ❐ #S #[bg=colour/;"	k
+fg	rhel/tmux.conf	/^set -g status-right '#[fg=colour3]#[bg=colour3, fg=colour0] #(~\/bin\/uptime.sh) #[bg=colour3/;"	k
+g:XkbSwitchEnabled	osx/vimrc	/^let g:XkbSwitchEnabled = 1$/;"	v
+g:XkbSwitchLib	osx/vimrc	/^let g:XkbSwitchLib = '\/usr\/local\/lib\/libInputSourceSwitcher.dylib'$/;"	v
+g:ackprg	osx/vimrc	/^let g:ackprg = 'ag --nogroup --nocolor --column'$/;"	v
+g:airline#extensions#tabline#enabled	osx/vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#enabled	rhel/vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#fnamemod	osx/vimrc	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v
+g:airline#extensions#tabline#fnamemod	rhel/vimrc	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v
+g:airline#extensions#tagbar#enabled	osx/vimrc	/^let g:airline#extensions#tagbar#enabled = 1$/;"	v
+g:airline#extensions#tagbar#enabled	rhel/vimrc	/^let g:airline#extensions#tagbar#enabled = 1$/;"	v
+g:airline#extensions#vimtex#enabled	osx/vimrc	/^let g:airline#extensions#vimtex#enabled = 1$/;"	v
+g:airline#extensions#vimtex#enabled	rhel/vimrc	/^let g:airline#extensions#vimtex#enabled = 1$/;"	v
+g:airline#extensions#vimtex#viewer	osx/vimrc	/^let g:airline#extensions#vimtex#viewer = 'v'$/;"	v
+g:airline#extensions#vimtex#viewer	rhel/vimrc	/^let g:airline#extensions#vimtex#viewer = 'v'$/;"	v
+g:airline#extensions#whitespace#enabled	osx/vimrc	/^let g:airline#extensions#whitespace#enabled = 0$/;"	v
+g:airline#extensions#whitespace#enabled	rhel/vimrc	/^let g:airline#extensions#whitespace#enabled = 0$/;"	v
+g:airline#parts#ffenc#skip_expected_string	osx/vimrc	/^let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'$/;"	v
+g:airline#parts#ffenc#skip_expected_string	rhel/vimrc	/^let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'$/;"	v
+g:airline_powerline_fonts	osx/vimrc	/^let g:airline_powerline_fonts=1$/;"	v
+g:airline_powerline_fonts	rhel/vimrc	/^let g:airline_powerline_fonts=1$/;"	v
+g:airline_solarized_bg	osx/vimrc	/^let g:airline_solarized_bg='light'$/;"	v
+g:airline_solarized_bg	rhel/vimrc	/^let g:airline_solarized_bg='dark'$/;"	v
+g:airline_theme	osx/vimrc	/^let g:airline_theme="solarized"$/;"	v
+g:airline_theme	rhel/vimrc	/^let g:airline_theme="solarized"$/;"	v
+g:ctrlp_cache_dir	osx/vimrc	/^let g:ctrlp_cache_dir = $HOME . '\/.cache\/ctrlp'$/;"	v
+g:ctrlp_cache_dir	rhel/vimrc	/^let g:ctrlp_cache_dir = $HOME . '\/.cache\/ctrlp'$/;"	v
+g:ctrlp_clear_cache_on_exit	osx/vimrc	/^let g:ctrlp_clear_cache_on_exit = 0$/;"	v
+g:ctrlp_clear_cache_on_exit	rhel/vimrc	/^let g:ctrlp_clear_cache_on_exit = 0$/;"	v
+g:ctrlp_cmd	osx/vimrc	/^let g:ctrlp_cmd = 'CtrlPMixed'$/;"	v
+g:ctrlp_cmd	rhel/vimrc	/^let g:ctrlp_cmd = 'CtrlPMixed'$/;"	v
+g:ctrlp_custom_ignore	osx/vimrc	/^let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_custom_ignore	rhel/vimrc	/^let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_match_window	osx/vimrc	/^let g:ctrlp_match_window = 'bottom,order:ttb'$/;"	v
+g:ctrlp_match_window	rhel/vimrc	/^let g:ctrlp_match_window = 'bottom,order:ttb'$/;"	v
+g:ctrlp_mruf_max	osx/vimrc	/^let g:ctrlp_mruf_max=500$/;"	v
+g:ctrlp_mruf_max	rhel/vimrc	/^let g:ctrlp_mruf_max=500$/;"	v
+g:ctrlp_use_caching	osx/vimrc	/^    let g:ctrlp_use_caching = 1$/;"	v
+g:ctrlp_use_caching	rhel/vimrc	/^    let g:ctrlp_use_caching = 1$/;"	v
+g:ctrlp_working_path_mode	osx/vimrc	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:ctrlp_working_path_mode	rhel/vimrc	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:limelight_conceal_ctermfg	osx/vimrc	/^let g:limelight_conceal_ctermfg = '240'$/;"	v
+g:limelight_conceal_ctermfg	rhel/vimrc	/^let g:limelight_conceal_ctermfg = '240'$/;"	v
+g:limelight_conceal_guifg	osx/vimrc	/^let g:limelight_conceal_guifg = '#777777'$/;"	v
+g:limelight_conceal_guifg	rhel/vimrc	/^let g:limelight_conceal_guifg = '#777777'$/;"	v
+g:limelight_priority	osx/vimrc	/^let g:limelight_priority = -1$/;"	v
+g:limelight_priority	rhel/vimrc	/^let g:limelight_priority = -1$/;"	v
+g:marked_filetypes	osx/vimrc	/^let g:marked_filetypes = ["markdown", "mkd", "pandoc"]$/;"	v
+g:marked_filetypes	rhel/vimrc	/^let g:marked_filetypes = ["markdown", "mkd", "pandoc"]$/;"	v
+g:pandoc#folding#level	rhel/vimrc	/^let g:pandoc#folding#level=2$/;"	v
+g:pandoc#spell#enabled	osx/vimrc	/^let g:pandoc#spell#enabled=0$/;"	v
+g:pandoc#spell#enabled	rhel/vimrc	/^let g:pandoc#spell#enabled=0$/;"	v
+g:solarized_bold	osx/vimrc	/^let g:solarized_bold=1$/;"	v
+g:solarized_bold	rhel/vimrc	/^let g:solarized_bold=1$/;"	v
+g:solarized_degrade	osx/vimrc	/^let g:solarized_degrade=1$/;"	v
+g:solarized_degrade	rhel/vimrc	/^let g:solarized_degrade=1$/;"	v
+g:solarized_extra_hi_groups	osx/vimrc	/^let g:solarized_extra_hi_groups=1$/;"	v
+g:solarized_extra_hi_groups	rhel/vimrc	/^let g:solarized_extra_hi_groups=1$/;"	v
+g:solarized_term_italics	osx/vimrc	/^let g:solarized_term_italics=0$/;"	v
+g:solarized_term_italics	rhel/vimrc	/^let g:solarized_term_italics=0$/;"	v
+g:solarized_termcolors	osx/vimrc	/^let g:solarized_termcolors=256$/;"	v
+g:solarized_termcolors	rhel/vimrc	/^let g:solarized_termcolors=256$/;"	v
+g:solarized_termtrans	osx/vimrc	/^let g:solarized_termtrans=1$/;"	v
+g:solarized_termtrans	rhel/vimrc	/^let g:solarized_termtrans=1$/;"	v
+g:solarized_underline	osx/vimrc	/^let g:solarized_underline=0$/;"	v
+g:solarized_underline	rhel/vimrc	/^let g:solarized_underline=0$/;"	v
+g:stardict_split_size	rhel/vimrc	/^let g:stardict_split_size = 20$/;"	v
+g:tagbar_width	osx/vimrc	/^let g:tagbar_width = 30$/;"	v
+g:tagbar_width	rhel/vimrc	/^let g:tagbar_width = 30$/;"	v
+g:tq_online_backends_timeout	osx/vimrc	/^let g:tq_online_backends_timeout = 0.4$/;"	v
+g:tq_online_backends_timeout	rhel/vimrc	/^let g:tq_online_backends_timeout = 0.4$/;"	v
+g:vimtex_complete_close_braces	osx/vimrc	/^let g:vimtex_complete_close_braces = 1$/;"	v
+g:vimtex_complete_close_braces	rhel/vimrc	/^let g:vimtex_complete_close_braces = 1$/;"	v
+g:vimtex_complete_enabled	osx/vimrc	/^let g:vimtex_complete_enabled = 1$/;"	v
+g:vimtex_complete_enabled	rhel/vimrc	/^let g:vimtex_complete_enabled = 1$/;"	v
+g:vimtex_enabled	osx/vimrc	/^let g:vimtex_enabled = 1$/;"	v
+g:vimtex_enabled	rhel/vimrc	/^let g:vimtex_enabled = 1$/;"	v
+g:vimtex_fold_enabled	osx/vimrc	/^let g:vimtex_fold_enabled = 1$/;"	v
+g:vimtex_fold_enabled	rhel/vimrc	/^let g:vimtex_fold_enabled = 1$/;"	v
+g:vimtex_fold_manual	osx/vimrc	/^let g:vimtex_fold_manual = 1$/;"	v
+g:vimtex_fold_manual	rhel/vimrc	/^let g:vimtex_fold_manual = 1$/;"	v
+g:vimtex_index_show_help	osx/vimrc	/^let g:vimtex_index_show_help = 0$/;"	v
+g:vimtex_index_show_help	rhel/vimrc	/^let g:vimtex_index_show_help = 0$/;"	v
+g:vimtex_index_split_pos	osx/vimrc	/^let g:vimtex_index_split_pos = 'below'$/;"	v
+g:vimtex_index_split_pos	rhel/vimrc	/^let g:vimtex_index_split_pos = 'below'$/;"	v
+g:vimtex_index_split_width	osx/vimrc	/^let g:vimtex_index_split_width = 10$/;"	v
+g:vimtex_index_split_width	rhel/vimrc	/^let g:vimtex_index_split_width = 10$/;"	v
+g:vimtex_latexmk_callback_hook	osx/vimrc	/^let g:vimtex_latexmk_callback_hook = 'UpdateSkim'$/;"	v
+g:vimtex_latexmk_callback_hook	rhel/vimrc	/^let g:vimtex_latexmk_callback_hook = 'UpdateSkim'$/;"	v
+g:vimtex_quickfix_latexlog	osx/vimrc	/^let g:vimtex_quickfix_latexlog = {$/;"	v
+g:vimtex_quickfix_latexlog	rhel/vimrc	/^let g:vimtex_quickfix_latexlog = {$/;"	v
+g:vimtex_quickfix_method	osx/vimrc	/^let g:vimtex_quickfix_method = 'pplatex'$/;"	v
+g:vimtex_quickfix_method	rhel/vimrc	/^let g:vimtex_quickfix_method = 'pplatex'$/;"	v
+g:vimtex_quickfix_open_on_warning	osx/vimrc	/^let g:vimtex_quickfix_open_on_warning = 0$/;"	v
+g:vimtex_quickfix_open_on_warning	rhel/vimrc	/^let g:vimtex_quickfix_open_on_warning = 0$/;"	v
+g:vimtex_view_general_options	osx/vimrc	/^let g:vimtex_view_general_options = '-r @line @pdf'$/;"	v
+g:vimtex_view_general_options	rhel/vimrc	/^let g:vimtex_view_general_options = '-r @line @pdf'$/;"	v
+g:vimtex_view_general_viewer	osx/vimrc	/^let g:vimtex_view_general_viewer = 'displayline'$/;"	v
+g:vimtex_view_general_viewer	rhel/vimrc	/^let g:vimtex_view_general_viewer = 'displayline'$/;"	v
+gV	osx/vimrc	/^nnoremap gV `[V`]$/;"	m
+gV	rhel/vimrc	/^nnoremap gV `[V`]$/;"	m
+jk	osx/vimrc	/^inoremap jk <esc>$/;"	m
+jk	rhel/vimrc	/^inoremap jk <esc>$/;"	m
+mapleader	osx/vimrc	/^let mapleader=','$/;"	v
+mapleader	rhel/vimrc	/^let mapleader=','$/;"	v
+maplocalleader	osx/vimrc	/^let maplocalleader=','$/;"	v
+maplocalleader	rhel/vimrc	/^let maplocalleader=','$/;"	v
+t	osx/tmux.conf	/^bind-key -r C-h select-window -t :-$/;"	k
+t	osx/tmux.conf	/^bind-key -r C-l select-window -t :+$/;"	k
+t	rhel/tmux.conf	/^bind-key -r C-h select-window -t :-$/;"	k
+t	rhel/tmux.conf	/^bind-key -r C-l select-window -t :+$/;"	k
+ㅓㅏ	osx/vimrc	/^inoremap ㅓㅏ <esc>$/;"	m
+ㅓㅏ	rhel/vimrc	/^inoremap ㅓㅏ <esc>$/;"	m
+ㅓㅏ	rhel/vimrc	/^nnoremap ㅓㅏ <esc>$/;"	m
