@@ -4,7 +4,9 @@ pip3 install \
     wheel \
     setuptools \
     numpy \
+    networkx \
     scipy \
+    json5==0.9.6 \
     matplotlib \
     seaborn \
     ipython \
