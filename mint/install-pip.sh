@@ -8,6 +8,9 @@ pip3 install \
     scipy \
     json5==0.9.6 \
     matplotlib \
+    pandas \
+    seaborn \
+    git+https://github.com/h2oai/datatable \
     seaborn \
     ipython \
     jupyterhub \

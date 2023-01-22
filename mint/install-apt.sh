@@ -63,7 +63,9 @@ sudo apt install -y \
     npm \
     xsel \
     gnome-tweaks \
-    nfs-common
+    nfs-common \
+    software-properties-common \
+    apt-transport-https
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
@@ -107,6 +109,13 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 ####################################################
+# install nvidia docker
+sudo apt update
+sudo apt install nvidia-docker2
+sudo systemctl restart docker
+sudo docker run --rm --gpus all nvidia/cuda:11.6.3-base-ubuntu20.04 nvidia-smi
+
+####################################################
 # install jaxlib
 mkdir -p $HOME/git_clone
 cd $HOME/git_clone
@@ -114,3 +123,34 @@ git clone https://github.com/google/jax
 cd jax
 python3 build/build.py --enable_cuda --target_cpu_features native
 pip3 install -e .
+
+####################################################
+# install noip update
+cd $HOME/Downloads
+wget https://www.noip.com/client/linux/noip-duc-linux.tar.gz
+sudo mv noip-duc-linux.tar.gz /usr/local/src
+cd /usr/local/src
+sudo tar xzf noip-duc-linux.tar.gz
+cd no-ip-2.1.9
+sudo make -j8
+sudo make install
+
+####################################################
+# install powerline fonts
+sudo apt install fonts-powerline
+
+####################################################
+# install visual studio code
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+
+####################################################
+# install noip2
+sudo cp noip2.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl start noip2
+sudo systemctl status noip2
+sudo systemctl enable noip2
+
