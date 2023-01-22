@@ -1,0 +1,13 @@
+# keep ssh connection alive
+TCPKeepAlive yes
+ServerAliveInterval 60
+
+Host github-pgi
+    HostName github.com
+    IdentityFile ~/.ssh/id_ed_pgi
+    IdentitiesOnly yes
+
+Host github-skim
+    HostName github.com
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
